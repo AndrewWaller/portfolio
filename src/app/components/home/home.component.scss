@@ -1,0 +1,181 @@
+
+
+
+.row {
+    margin-left: -11em;
+    margin-right: -11em;
+}
+
+.pics {
+    overflow: none;
+    height: 50vh;
+    margin: 20px;
+}
+
+.img-shrink {
+    padding-left: 200px;
+    padding-right: 200px;
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0px 0px 0px 9000px #fd1c15;
+}
+
+.btn01 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    background-color: #fd1c15;
+    width: 100%;
+	margin: auto;
+}
+
+.work-header {
+    height: 216px; 
+    background-color: #fd1c15;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+}
+
+label {
+	color: #fcf8ee;
+}
+
+input {
+	color: black;
+}
+
+.work-titles {
+	height: 20px;
+	width: 100px;
+	text-align: left;
+}
+
+.banner {
+    color: #fcf8ee;
+    font-size: 400%;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-60%);
+}
+
+.text-box {
+	text-align: center;
+	color: #fcf8ee;
+}
+
+.git-fit-logo {
+	width: 5em;
+    height: 4em;
+    margin-top: -20px;
+}
+
+.box {
+	text-align: center;
+	color: #fcf8ee;
+	background: #fd1c15;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	-o-transition:color 3s ease-out, src 3s ease-in;
+ 	-ms-transition:color 3s ease-out, src 3s ease-in;
+  	-moz-transition:color 3s ease-out, src 3s ease-in;
+  	-webkit-transition:color 3s ease-out, src 3s ease-in;
+  	transition:color 3s ease-out, src 3s ease-in;
+}
+
+.box:hover{	
+	color: black;
+}
+
+.box-2 {
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	font-size: 20px;
+}
+
+/*==============================================================================evrythang==*/
+
+.my-work {
+	display:block;
+    overflow:auto;
+    padding: 118px;
+    background-color: #f2eee2;
+    height: auto;
+}
+
+.external-sites {
+	height: inherit;
+	overflow-y: hidden;
+}
+
+.flex-parent {
+	list-style: none;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.flex-child {
+	text-align: center;
+	width: 100vw;
+	padding: 2px;
+    height: 14vh;
+    margin-bottom: 7vh;
+}
+.child-1 {
+	order: 1;
+}
+
+.child-2 {
+	order: 2;
+}
+
+.child-3 {
+	order: 3;
+}
+
+.child-4 {
+	order: 4;
+}
+
+/*==============================================================================my-work==*/
+
+@media only screen and (min-width: 500px) {
+    .flex-child {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.flex-child {
+        width: 570px;
+        height: 375px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 600%;
+	}
+	
+	.git-fit-logo {
+		width: 1em;
+		height: 1em;
+		margin-top: 254px;
+		margin-left: -88px;
+	}
+}
+/*==============================================================================media queries==*/

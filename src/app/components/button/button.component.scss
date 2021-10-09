@@ -1,0 +1,81 @@
+.btn-back {
+    height: 50px;
+    width: 50px;
+    background-color: #fcf8ee;
+    border-radius: 50%;
+    margin: auto;
+    list-style: none;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.wrapper {
+    top: 1vh;
+    text-align: center;
+	padding: 2px;
+}
+
+div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+  }
+  div svg {
+    width: 100px;
+    height: 40px;
+    margin: 0 2rem;
+    cursor: pointer;
+    overflow: visible;
+  }
+  div svg polygon, div svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  div svg polygon, div svg path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #FF4136;
+  }
+  div svg .arrow {
+    animation: arrow-anim 2.4s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+  }
+  div svg .arrow-fixed {
+    animation: arrow-fixed-anim 2.4s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+  }
+  div svg:hover .arrow {
+    animation: arrow-anim 1s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+  }
+  div svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 1s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+  }
+  
+  @keyframes arrow-anim {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    5% {
+      transform: translateX(-0.1rem);
+    }
+    100% {
+      transform: translateX(1rem);
+      opacity: 0;
+    }
+  }
+  @keyframes arrow-fixed-anim {
+    5% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

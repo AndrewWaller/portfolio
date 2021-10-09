@@ -1,0 +1,71 @@
+i {
+    color: #fcf8ee;
+    background-color: #fd1c15;
+    border-radius: 50%;
+    border: 5px solid #fd1c15;
+    margin-right: .3vw;
+}
+
+textarea {
+    height: 11.3vh;
+    width: 100vw;
+    margin-top: 7.6vh;
+}
+
+.row {
+    background-color: #ded7c9;
+    //height: 16vh;
+    width: 100vw;
+}
+
+.col {
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels {
+    width: 4vw;
+    margin-bottom: 0px;
+}
+
+.inputs {
+    width: 13vw;
+}
+
+.light-color {
+    background-color: #ded7c9;
+    border: none;
+    border-bottom: 2px solid #fd1c15;
+}
+
+.btn-email {
+    background-color: #fd1c15;
+    color: #fcf8ee;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 15.1vh;
+}
+
+.red-box {
+    background-color: #fd1c15;
+}
+
+.box {
+	text-align: center;
+	color: #fcf8ee;
+	background: #fd1c15;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	-o-transition:color 3s ease-out, src 3s ease-in;
+ 	-ms-transition:color 3s ease-out, src 3s ease-in;
+  	-moz-transition:color 3s ease-out, src 3s ease-in;
+  	-webkit-transition:color 3s ease-out, src 3s ease-in;
+  	transition:color 3s ease-out, src 3s ease-in;
+}
+
