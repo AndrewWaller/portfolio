@@ -11,9 +11,8 @@
   },
   "private": true,
   "dependencies": {
-    "@agm/core": "^1.1.0",
     "@angular/animations": "^12.2.9",
-    "@angular/common": "^12.2.9",
+    "@angular/common": "^12.2.10",
     "@angular/compiler": "^12.2.9",
     "@angular/core": "^12.2.9",
     "@angular/forms": "^12.2.9",
@@ -24,13 +23,14 @@
     "core-js": "^2.6.12",
     "html-form-send-email-via-google-script-without-server": "^2.1.0",
     "jquery": "^3.6.0",
+    "npm": "^8.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^12.2.9",
-    "@angular/cli": "^12.2.9",
+    "@angular/cli": "^12.2.10",
     "@angular/compiler-cli": "^12.2.9",
     "@angular/language-service": "^12.2.9",
     "@types/jasmine": "^2.8.18",
